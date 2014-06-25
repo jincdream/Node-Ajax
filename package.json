@@ -1,15 +1,20 @@
 {
   "name": "node-ajax",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "a simple ajax tool for brower and node request",
-  "main": "index.js",
+  "main": "./lib/node-ajax.js",
   "scripts": {
-    "test": "node ./test/test.js"
+    "test": "node ./test/test.js",
+    "start": "node ./lib/create.js"
   },
   "keywords": [
     "ajax",
     "request"
   ],
+  "repository":{
+    "type":"git",
+    "url":"https://github.com/jincdream/Node-Ajax"
+  },
   "author": "jinc",
   "license": "MIT"
 }
