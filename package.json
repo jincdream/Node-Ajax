@@ -1,0 +1,15 @@
+{
+  "name": "node-ajax",
+  "version": "0.1.4",
+  "description": "a simple ajax tool for brower and node request",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/test.js"
+  },
+  "keywords": [
+    "ajax",
+    "request"
+  ],
+  "author": "jinc",
+  "license": "MIT"
+}
